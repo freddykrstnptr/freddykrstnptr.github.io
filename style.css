@@ -160,6 +160,8 @@ p {
   display: none; /* untuk Chrome, Safari */
 }
 
+
+@media (max-width: 768px) {
 .memory {
     display: flex;
     align-items: center;
@@ -187,4 +189,6 @@ p {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     text-align: left;
+}
+
 }
