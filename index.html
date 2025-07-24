@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Web | Selamat Ulang Tahun 💖</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Splash Screen -->
+<div id="splash">
+    <div class="splash-text">💖 Selamat Ulang Tahun Sayang 💖</div><br>
+</div>
+
+<!-- Confetti -->
+<canvas id="confetti"></canvas>
+
+<!-- Konten Utama -->
+<div class="box-main">
+    <img src="img/devi.jpg" alt="Foto Pacar" class="foto-pacar" />
+    <h1>🎉 Selamat Ulang Tahun🎉</h1>
+        <p><strong>Devi Alfiani Khoerunnisa 🎂</strong></p>
+        <p>ada ucapan selamat ulang tahun dari Edo, panjang umur katanya</p>
+        <p>sehat selalu serta apa yang kamu inginkan semoga terwujud yah</p>
+    <p><strong>I love you ❤️</strong></p>
+    <div class="button-group">
+        <button class="btn" onclick="showLetter()">💌 Buka Surat</button>
+        <button class="btn" onclick="toggleGallery()">📸 Galeri Foto</button>
+    </div>
+</div>
+
+<!-- Surat Cinta -->
+<div class="popup" id="letter">
+    <div class="popup-content surat-scroll">
+        <h2>Untuk Devi Alfiani Khoerunnisa 💖</h2><br>
+        <p>
+            umur kamu sekarang berkurang lagi, Waktu kamu makin sedikit lagi.
+            usia kamu sudah berkepala dua lebih satu, diusia mu sekarang ini
+            mungkin kamu akan merasakan banyak rintangan lainnya, tapi percayalah
+            semuanya pasti ada jalan. jangan pernah nyerah, jangan pernah merasa gagal, 
+            karena setiap rintangan atau cobaan yang kamu lewati itu awal dari kebahagian
+            yang akan kamu dapat. <br><br>aku cuma bisa menemani dan membantu apa yang aku bisa,
+            sisanya kamu sendiri yang bisa membuat diri kamu bisa dan menggapainya.
+            jadi aku harap kamu jangan terlalu memikirkan apa yang belum terjadi,
+            yang jelas aku pengen ngeliat kamu gapernah nyerah dengan apa yang kamu lewati.
+            percayalah bahwa diri kamu bisa apapun itu kamu pasti bisa. jangan khawatir,
+            aku selalu support kamu dan bukan aku aja yang selalu support kamu ada ayah,
+            ibu, adek kamu, keluarga kamu, keluarga aku juga jadi semangat!!
+            doa dari aku semoga kamu sehat selalu, Bahagia selalu, dimudahkan segala
+            rintangan yang kamu lewati, dimudahkan rezekinya, dan yang terpenting
+            kamu selalu menjadi diri kamu sendiri yang gapernah ikuti bayangan hidup 
+            teman ataupun orang lain.<br><br>jujur aku seneng banget rasanya bisa kenal kamu, dan aku gapernah bosen mengatakan ini
+            karena kamu selalu support aku, selalu nemenin aku, dan kamu selalu berusaha terus agar
+            kamu jadi satu satunya yang selalu support aku disaat aku down banget. pesan aku, 
+            aku pengen selalu ngeliat kamu selalu menjadi diri kamu sendiri, devi yang aku kenal.
+            maaf yah kado ultah dari aku hanya biasa aja, maaf kalo kamu kecewa dari kado pemberian
+            aku, tapi aku harap semoga kamu suka kado dari aku ini.<br><br>terakhir, aku punya satu permintaan buat kamu
+            mungkin aku selalu nyusahin dan ngerepotin kamu, terus aku selalu banyak
+            permintaan ke kamu, makasii banyak untuk semuanya dan maaf aku belum bisa
+            membalas kebaikan kamu, dan permintaan aku tolong jika aku bertemu hari ulang
+            tahun ku lagi kamu jangan ngasih apa apa ke aku, yang aku ingin kamu memberi doa
+            dan kamu terlihat sehat dan Bahagia selalu udah cukup, jadi aku sangat berharap
+            kamu tidak memberikan apa apa ke aku jika aku bertemu hari ulang tahunku. Happy Birthday Neng 🎉<br><br>
+            Love u 💕<br>
+            Edo
+        </p>
+        <button class="btn" onclick="closeLetter()">Kembali</button>
+    </div>
+</div>
+
+<!-- Galeri Foto Baru -->
+<div class="popup" id="gallery">
+    <div class="popup-content gallery-scroll">
+        <h2>Galeri Kenangan 📸</h2>
+        
+        <div class="memory">
+            <img src="img/devc.jpg" alt="kenangan 1">
+            <p>
+                "Waktu kamu masih kecil, aku juga masih kecil.
+                Kita berjalan di dunia yang sama, tapi di jalan yang berbeda.
+                Kamu tidak mengenalku, dan aku pun tak tahu siapa kamu.
+                Namun siapa sangka, takdir diam-diam menyiapkan pertemuan yang tak kita duga.😄✨"
+            </p>
+        </div>
+    
+        <div class="memory">
+            <img src="img/devc1.jpg" alt="kenangan 2">
+            <p>
+                "Seiring waktu dan dunia ini terus berputar, kamu tumbuh menjadi wanita yang hebat dan mandiri.
+                Di saat banyak orang masih mencari arah, kamu sudah melangkah jauh, memulai petualanganmu sendiri.
+                Jauh dari rumah, jauh dari pelukan hangat keluarga, di usia yang seharusnya masih penuh dengan tawa dan kebersamaan.
+                Entah karna kamu kuat atau keluarga kamu yang percaya kamu kuat,
+                tapi jawaban keduanya itu tepat karna sekarang kamu tumbuh sebagai Wanita yang cantik, baik, dan kuat 💕"
+            </p>
+        </div>
+    
+        <div class="memory">
+            <img src="img/dev.jpg" alt="kenangan 3">
+            <p>
+                "Waktu perlahan mempertemukan kita, semesta seolah sudah lama merencanakan ini semua.
+                Dulu aku tak tahu siapa kamu, tak pernah terpikir bahwa suatu hari kamu akan begitu berarti.
+                Tapi sekarang, aku tahu segalanya tentang tawamu, tentang lukamu, tentang semangatmu,
+                bahkan tentang rasa lelah yang kamu sembunyikan di balik matamu ✨❤️"
+            </p>
+        </div>
+    
+        <div class="memory">
+            <img src="img/epih.jpg" alt="kenangan 4">
+            <p>
+                "semua yang pernah aku alami Bersama kamu kini menjadi kenangan yang memberikan banyak pembelajaran dan pemahaman.
+                Ia menjadi pelajaran paling jujur dalam hidupku, mengajarkanku arti kebersamaan, keikhlasan, dan kesabaran bersamamu.
+                setiap momen bersamamu tetap menjadi bagian berharga dalam hidupku. 
+                aku bersyukur bisa mencatat dan mengingat cerita yang begitu hebat bersamamu,
+                mungkin akan ada banyak lagi jalan cerita yang aku dan kamu catat serta ingat karna episode cerita ini akan tetap berlanjut, 
+                meskipun entah kedepannya kita akan dipisahkan oleh takdir atau tidak
+                tapi cerita ini akan kita lanjutkan kepada diri kita sendiri🏡❤️"</p>
+        </div>
+
+        <div class="memory">
+            <img src="img/family.jpg" alt="kenangan 5">
+            <p>
+                "Satu hal yang pasti, momen di foto ini adalah yang paling aku sukai.
+                Bukan karena momen lainnya tak indah, tapi karena di detik itu, aku merasa lengkap.
+                memang banyak momen Bahagia yang kita jalani, akan tetapi momen ini adalah momen dimana
+                terasa begitu lengkap, karena ada kamu, ada senyummu, ada keluargaku, dan ada senyum dari keluargaku.
+                Maaf aku tidak bisa menceritakan satu persatu momen yang pernah kita lewati Bersama, tapi percayalah
+                episode cerita ini akan berlanjut selagi dunia berputar dan kita berdua berada di langit yang sama🏡❤️.
+                Next eps, Love u 💕💕"</p>
+        </div>
+    
+        <button class="btn" onclick="toggleGallery()">Kembali</button>
+    </div>
+</div>
+
+
+<!-- Script -->
+<script src="convetti.js"></script>
+</body>
+</html>
